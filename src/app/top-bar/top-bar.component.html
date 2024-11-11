@@ -1,9 +1,14 @@
-<nav class="nav-bar">
-  <a [routerLink]="['/']" class="logo">
-    <h2>My Store</h2>
-  </a>
-  <button type="button" class="btn">
-    <span class="material-icons">shopping_cart</span>
-    Checkout
-  </button>
-</nav>
+<div class="bg-sky-700">
+  <nav class="flex justify-between items-center max-w-5xl mx-auto py-2 px-4">
+    <a [routerLink]="['/']" class="logo">
+      <h2 class="text-xl font-medium text-slate-50">My Store</h2>
+    </a>
+    <button
+      type="button"
+      class="p-2 bg-white text-sky-500 border-none outline-none rounded-md cursor-pointer hover:opacity-80 flex justify-around items-center gap-1"
+    >
+      <span class="material-icons">shopping_cart</span>
+      Checkout
+    </button>
+  </nav>
+</div>
