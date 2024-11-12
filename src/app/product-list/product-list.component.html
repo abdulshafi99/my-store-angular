@@ -6,6 +6,8 @@
   >
     <a
       class="title text-sky-500 font-semibold hover:opacity-80 text-base cursor-pointer"
+      [title]="product.name + ' details'"
+      [routerLink]="['/products', product.id]"
     >
       {{ product.name }}
     </a>
